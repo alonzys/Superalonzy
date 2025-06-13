@@ -1,0 +1,18 @@
+<addons>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.superalonzy" name="Superalonzy Repository" version="1.0.0" provider-name="Abu Nawaf">
+  <requires>
+    <import addon="xbmc.addon" version="19.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="Superalonzy Repository">
+    <info compressed="false">https://alonzys.github.io/Superalonzy/addons.xml</info>
+    <checksum>https://alonzys.github.io/Superalonzy/addons.xml.md5</checksum>
+    <datadir>https://alonzys.github.io/Superalonzy/repository.superalonzy/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Superalonzy Repository</summary>
+    <description lang="en">Repository for Superalonzy Kodi Addon</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
